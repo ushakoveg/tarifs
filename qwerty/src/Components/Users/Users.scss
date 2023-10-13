@@ -1,0 +1,91 @@
+@import '../../style/index.scss';
+.aqua{
+    background-color: aqua;
+    width: 24%;
+    border: 2px solid white;
+    
+}
+.green{
+    background-color: green;
+    width: 24%;
+    border: 2px solid white;
+}
+.red{
+    background-color: red;
+    width: 24%;
+    border: 2px solid white;
+}
+.black{
+    background-color: black;
+    width: 24%;
+    border: 2px solid white;
+}
+.name{
+    margin: 15px;
+    color: white;
+   
+   
+}
+.period__main{
+    color: white;
+}
+.period__subtitle{
+    margin-right: 8px;
+    color: white;
+}
+.period__long{
+    color: white;
+
+}
+.long__background{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.period{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 0 20px;
+}
+.details{
+    background-color: white;
+}
+.title__background{
+    display: flex;
+    justify-content: center;
+    
+}
+.text__background{
+    display: flex;
+    justify-content: center;
+    background-color:  #e5e2e2;
+}
+.details__text{
+    color: gray;
+    max-width: 190px;
+}
+.details__title{
+    margin: 20px;
+    color: gray;
+    
+}
+.aqua:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.green:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.red:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.black:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
